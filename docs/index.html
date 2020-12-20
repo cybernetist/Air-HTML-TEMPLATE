@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="tr">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="icon" href="./img/icon.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>Airbnb Website</title>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light px-3">
+            <div class="container-fluid"> <a class="navbar-brand" href="./index.html"><img class="img-fluid logo"  src="../img/header-logo.png"></a>
+
+                <button
+                class="navbar-toggler custom-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav ml-auto ml-5">
+                            <li class="nav-item "> <a class="nav-link" href="#">Français (FR)</a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">EUR €</a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Devenir hôte</a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Créer son expérience</a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Aide</a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Inscription</a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Connexion</a>
+
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="form-box">
+                             <h1>Réservez des <br> hébergements et des <br> activités uniques.</h1>
+
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInput">Où</label>
+                                    <input class="form-control" type="text" placeholder="Partout">
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right:0;">
+                                            <label for="exampleInput">Arrivée</label>
+                                            <input class="form-control" type="text" placeholder="jj/mm/aaaa">
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left:0;">
+                                            <label for="exampleInput">Départ</label>
+                                            <input class="form-control" type="text" placeholder="jj/mm/aaaa">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInput">Voyageurs</label>
+                                    <input class="form-control" type="text" placeholder="Voyageurs">
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn btn-primary">Rechercher</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="explore">
+            <div class="container">
+                 <h1>Explorer Airbnb</h1>
+
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="explore-box">
+                            <img class="img-fluid" src="./img/e1.png"> <span>Logements</span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="explore-box">
+                            <img class="img-fluid" src="./img/e2.png"> <span>Expériences</span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="explore-box">
+                            <img class="img-fluid" src="./img/e3.png"> <span>Aventures</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="air-banner">
+            <div class="container">
+                 <h1>Hébergements Airbnb Plus</h1>
+
+                <p>Une sélection de logements vérifiés selon des critères de qualité et de
+                    design</p>
+                <div class="air-banner-bc">
+                    <img class="img-fluid" src="./img/logo.png"> <a href="#" class="banner-button">Découvrir des logements <img class="img-fluid" src="./img/arrow.svg"></a>
+
+                </div>
+            </div>
+        </section>
+        <section class="product-slider">
+            <div class="container">
+                 <h1>Découvrez les aventures Airbnb</h1>
+
+                <p>Voyages de plusieurs jours organisés par des experts locaux avec activités,
+                    repas
+                    <br>et logements compris</p>
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/1.png">
+                                 <h5>Cayman Islands</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/2.png">
+                                 <h5>Uruguay</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/3.png">
+                                 <h5>Iceland</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/4.png">
+                                 <h5>Mongolia</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/5.png">
+                                 <h5>Bahrain</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/6.png">
+                                 <h5>Bosnia and Herzegovina</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="air-explore">
+            <div class="container">
+                 <h1>Logements dans le monde entier</h1>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore1.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>Toledo</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore2.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>Mesa</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore3.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>Utica</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore4.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>South Bend</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 32px;">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore5.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>Toledo</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore6.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>Mesa</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore7.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>Utica</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="air-explore-box">
+                            <img class="img-fluid" src="./img/explore8.png">
+                            <div class="explore-box-row">
+                                <button>SUPERHOST</button>
+                                 <h5>South Bend</h5>
+
+                                <img id="star-explore" class="img-fluid" src="./img/star2.svg"><span>4,98</span>
+
+                            </div>
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-slider">
+            <div class="container">
+                 <h1>Découvrez les aventures Airbnb</h1>
+
+                <p>Voyages de plusieurs jours organisés par des experts locaux avec activités,
+                    repas
+                    <br>et logements compris</p>
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/7.png">
+                                 <h5>Cayman Islands</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/8.png">
+                                 <h5>Uruguay</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/9.png">
+                                 <h5>Iceland</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/10.png">
+                                 <h5>Mongolia</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/11.png">
+                                 <h5>Bahrain</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <img class="img-fluid" src="./img/12.png">
+                                 <h5>Bosnia and Herzegovina</h5>
+
+                                 <h4>2 Nights PACKAGE All Inclusive</h4>
+
+                                <p>À partir de 577€/personne -  3 jours</p> <span>5.0</span> 
+                                <img class="img-fluid"
+                                id="star" src="./img/star.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                 <h1>Destinations Airbnb Plus à la Une</h1>
+
+                <p>Voyages de plusieurs jours organisés par des experts locaux avec activités,
+                    repas
+                    <br>et logements compris</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="blog-box">
+                            <div class="blog-image1">
+                                <img class="img-fluid" src="./img/logo-blog.png">
+                            </div> <span>Plus de 200 séjours vérifiés</span>
+
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-box">
+                            <div class="blog-image2">
+                                <img class="img-fluid" src="./img/logo-blog.png">
+                            </div> <span>Plus de 200 séjours vérifiés</span>
+
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-box">
+                            <div class="blog-image3">
+                                <img class="img-fluid" src="./img/logo-blog.png">
+                            </div> <span>Plus de 200 séjours vérifiés</span>
+
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center"></footer>
+        <script src="js/all.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              slidesPerView: 2,
+              spaceBetween: 10,
+              loop: true,
+              // init: false,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              breakpoints: {
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 4,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 6,
+                  spaceBetween: 50,
+                },
+              }
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+    </body>
+
+</html>
